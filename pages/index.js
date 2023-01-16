@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -26,13 +27,13 @@ export default function Home() {
       <header>
         <nav>
           <img />
-          <a href="/">Home</a>
-          <a href="/events">Events</a>
-          <a href="/about">About</a>
+          <Link href="/">Home</Link>
+          <Link href="/events">Events</Link>
+          <Link href="/about">About</Link>
         </nav>
       </header>
       <main className={styles.main}>
-        <a href="">
+        <Link href="">
           <div>
             <img />
             <h2>Events in Jeddah</h2>
@@ -45,8 +46,8 @@ export default function Home() {
               mollit anim id est laborum.
             </p>
           </div>
-        </a>
-        <a href="">
+        </Link>
+        <Link href="">
           <div>
             <img />
             <h2>Events in Riyadh</h2>
@@ -59,8 +60,8 @@ export default function Home() {
               mollit anim id est laborum.
             </p>
           </div>
-        </a>
-        <a href="">
+        </Link>
+        <Link href="">
           <div>
             <img />
             <h2>Events in Dubai</h2>
@@ -73,7 +74,7 @@ export default function Home() {
               mollit anim id est laborum.
             </p>
           </div>
-        </a>
+        </Link>
       </main>
       <footer className={styles.footer}>ddddd</footer>
     </>
