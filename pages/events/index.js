@@ -7,19 +7,19 @@ const events = () => {
       <div>
         <a href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Jeddah</h2>
           </div>
         </a>
         <a href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Riyadh</h2>
           </div>
         </a>
         <a href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Dubai</h2>
           </div>
         </a>

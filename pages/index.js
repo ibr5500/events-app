@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <header>
         <nav>
-          <img />
+          {/*<img />*/}
           <Link href="/">Home</Link>
           <Link href="/events">Events</Link>
           <Link href="/about">About</Link>
@@ -35,7 +35,7 @@ export default function Home() {
       <main className={styles.main}>
         <Link href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Jeddah</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -49,7 +49,7 @@ export default function Home() {
         </Link>
         <Link href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Riyadh</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -63,7 +63,7 @@ export default function Home() {
         </Link>
         <Link href="">
           <div>
-            <img />
+            {/*<img />*/}
             <h2>Events in Dubai</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
