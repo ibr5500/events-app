@@ -3,7 +3,7 @@ import React from "react";
 const events = () => {
   return (
     <div>
-      <h2>Events List Page</h2>
+      <h2>Events list page</h2>
       <div>
         <a href="">
           <div>
