@@ -41,7 +41,7 @@ export default function Home({ data }) {
           >
             <Image
               width={200}
-              height={150}
+              height={200}
               src={ev.image}
               alt={ev.title}
             />
