@@ -34,58 +34,21 @@ export default function Home({ data }) {
       </header>
       <main className={styles.main}>
         {data.map((ev) => (
-          <a href={`/events/${ev.id}`}>
+          <Link
+            key={ev.id}
+            href={`/events/${ev.id}`}
+            className={styles.cards}
+          >
             <Image
-              width={150}
+              width={200}
               height={150}
               src={ev.image}
-              //alt={ev.title}
+              alt={ev.title}
             />
             <h2>{ev.title}</h2>
-          </a>
+            <p>{ev.description}</p>
+          </Link>
         ))}
-        <Link href="">
-          <div>
-            {/*<img />*/}
-            <h2>title</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
-            </p>
-          </div>
-        </Link>
-        <Link href="">
-          <div>
-            {/*<img />*/}
-            <h2>Events in Riyadh</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
-            </p>
-          </div>
-        </Link>
-        <Link href="">
-          <div>
-            {/*<img />*/}
-            <h2>Events in Dubai</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
-            </p>
-          </div>
-        </Link>
       </main>
       <footer className={styles.footer}>ddddd</footer>
     </>
@@ -94,7 +57,6 @@ export default function Home({ data }) {
 
 export async function getServerSideProps() {
   const { events_categories } = await import("/data/data.json");
-  console.log(events_categories);
   return {
     props: {
       data: events_categories,
