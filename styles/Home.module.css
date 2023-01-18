@@ -12,6 +12,12 @@
   background-color: green;
 }
 
+.cards {
+  margin: 0.75rem 0;
+  padding: 0 8rem;
+  width: 100%;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
