@@ -1,5 +1,4 @@
 import Link from "next/link";
-import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
 const Events = ({ data }) => {
@@ -11,7 +10,6 @@ const Events = ({ data }) => {
           <Link
             key={ev.id}
             href={`/events/${ev.id}`}
-            className={styles.cards}
           >
             <Image
               width={300}

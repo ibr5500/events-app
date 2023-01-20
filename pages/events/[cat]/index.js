@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
 
 const EventCategory = ({ data, pageName }) => {
   return (
@@ -11,7 +10,6 @@ const EventCategory = ({ data, pageName }) => {
           <Link
             key={ev.id}
             href={`/events/${ev.city}/${ev.id}`}
-            className={styles.cards}
           >
             <Image
               width={200}

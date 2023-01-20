@@ -1,8 +1,7 @@
 import Link from "next/link";
-import styles from "@/styles/Home.module.css";
 
 const Header = () => (
-  <header className={styles.navbar}>
+  <header>
     <nav>
       {/*<img />*/}
       <Link href="/">Home</Link>
