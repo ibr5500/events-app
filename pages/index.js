@@ -27,12 +27,10 @@ export default function Home({ data }) {
           href="/favicon.ico"
         />
       </Head>
-      <Header styles={styles} />
       <HomePage
         data={data}
-        styles={styles}
+        style={styles}
       />
-      <Footer styles={styles} />
     </>
   );
 }
