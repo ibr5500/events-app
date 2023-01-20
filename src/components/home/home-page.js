@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
 
-const HomePage = ({ data }) => (
+const HomePage = ({ data, styles }) => (
   <main className={styles.main}>
     {data.map((ev) => (
       <Link
