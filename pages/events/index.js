@@ -20,7 +20,6 @@ const Events = ({ data }) => {
               alt={ev.title}
             />
             <h2>{ev.title}</h2>
-            {/*<p>{ev.description}</p>*/}
           </Link>
         ))}
       </div>
