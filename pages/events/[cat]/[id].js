@@ -13,7 +13,7 @@ export async function getStaticPaths() {
     return {
       params: {
         cat: path.city,
-        event_title: path.id,
+        id: path.id,
       },
     };
   });
@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const id = context?.params.event_title;
+  const id = context?.params.id;
 
   const { allEvents } = await import("/data/data.json");
 
