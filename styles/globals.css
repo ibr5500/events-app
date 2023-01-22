@@ -84,6 +84,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: var(--font-mono);
+  background: linear-gradient(22.5deg, #aabbea, transparent)
 }
 
 a {

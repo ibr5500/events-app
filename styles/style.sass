@@ -1,5 +1,3 @@
-body
-  background: linear-gradient(22.5deg, #aabbea, transparent)
 header
   height: auto
   padding: 25px 50px
@@ -35,7 +33,7 @@ main
     flex-direction: row
     img
       min-width: 35%
-      border-radius: 20%
+      border-radius: 20px
     .homeContent
       margin: 30px
       h2
@@ -46,4 +44,98 @@ main
 footer
   text-align: center
   height: 10%
-  margin: 10px auto
+  margin: 15px auto
+
+.aboutPage
+  align-items: center
+  justify-content: center
+  display: flex
+  flex-direction: column
+  gap: 15px
+  width: 70%
+  height: 100%
+  margin: 15px auto
+  padding: 20px 0
+  ul
+    list-style: none
+
+.events-list
+  align-items: center
+  justify-content: center
+  display: flex
+  flex-direction: column
+  width: auto
+  height: auto
+  gap: 10px
+  margin: 0 auto
+  padding: 20px
+  .evnets-container
+    display: flex
+    margin: 30px auto
+    a
+      position: relative
+      display: flex
+      flex-direction: column
+      padding: 10px 20px
+      margin: 0 10px
+      max-height: 380px
+      img
+        border-radius: 20px
+      h2
+        position: absolute
+        width: 90%
+        top: 50%
+        text-align: center
+        font-size: 24px
+        color: white
+        text-transform: uppercase
+        text-shadow: 1px 1px 20px #000
+    a:hover
+      img
+        box-shadow: 5px 10px 18px #888888
+
+.events-category
+  width: 80%
+  margin: 20px auto 40px auto
+  padding: 20px 40px
+  gap: 50px
+  display: flex
+  flex-direction: column
+  h1
+    text-align: center
+    font-size: 28px
+    font-style: italic
+  div
+    gap: 50px
+    display: flex
+    flex-direction: column
+    width: 90%
+    margin: auto 25px
+    a
+      display: flex
+      img
+        border-radius: 20%
+    a:hover
+      img
+        box-shadow: 5px 10px 18px #888888
+
+.event-continer
+  width: 80%
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  gap: 20px
+  padding: 30px 0
+  img
+    width: 90%
+    margin: 0 auto
+    border-radius: 15px
+  .single-event
+    width: 90%
+    margin: 10px auto 30px auto
+    h1
+      font-size: 36px
+      font-weight: 600
+    p
+      margin: 15px 0 0 0
+      font-size: 20px
