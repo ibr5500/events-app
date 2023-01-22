@@ -14,8 +14,10 @@ const HomePage = ({ data }) => (
           src={ev.image}
           alt={ev.title}
         />
-        <h2>{ev.title}</h2>
-        <p>{ev.description}</p>
+        <div className="homeContent">
+          <h2>{ev.title}</h2>
+          <p>{ev.description}</p>
+        </div>
       </Link>
     ))}
   </main>
