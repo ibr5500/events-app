@@ -3,12 +3,14 @@
 ## Description: Events is built to help users, to check events and register for events.
 
 ## Built with:
+
+- React.js
 - Next.js
 - Sass
 
 ## Live Demo
 
-Deployed by Vercel [click](https://events-dkj9latet-ibr5500.vercel.app/) for the live demo.
+Deployed by Vercel [click](https://events-app-gamma.vercel.app/) for the live demo.
 
 ## Getting Started
 
@@ -58,7 +60,7 @@ pnpm dev
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/aimalamiri/Ruby-Catalog/issues).
+Feel free to check the [issues page](https://github.com/ibr5500/events-app/issues).
 
 ## Show your support
 
