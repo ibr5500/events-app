@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-Deployed by Vercel [click](https://events-app-gamma.vercel.app/) for the live demo.
+Deployed by Vercel [click](https://events-dkj9latet-ibr5500.vercel.app/) for the live demo.
 
 ## Getting Started
 
